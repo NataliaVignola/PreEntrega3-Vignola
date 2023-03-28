@@ -49,7 +49,7 @@ const productos = [{
     },
 ];
 
-/*Array vacío vacío para almacenar los productos que se agregan al carrito.*/
+/*Array vacío para almacenar los productos que se agregan al carrito.*/
 const carrito = []
 
 /*Variable que inicia en cero y se va actualizando cada vez que se agrega un producto al carrito*/
