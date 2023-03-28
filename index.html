@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/logo-cc-2.svg" type="image/svg">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Cultura Café - Inicio</title>
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="./img/logo-cc.svg" alt="logo que emula grano de café">
+        <h1>CULTURA CAFÉ</h1>
+    </header>
+
+    <section class="compra">
+
+        <div class="user-container">
+            <h3>HOLA VOS</h3>
+            <h5>Ingresá tus datos:</h5>
+            <form id="datos-usuario">
+                <p>NOMBRE</p>
+                <input type="text" id="nombre" name="nombre">
+                <p>CORREO ELECTRÓNICO</p>
+                <input type="email" id="email" name="email">
+                <p>TELÉFONO DE CONTACTO</p>
+                <input type="telefono" id="telefono" name="telefono">
+                <button type="submit">Enviar</button>
+            </form>
+            <div id="datos-usuario-mostrados">
+                <p id="nombre-parrafo"></p>
+                <p id="email-parrafo"></p>
+                <p id="telefono-parrafo"></p>
+            </div>
+        </div>
+
+        <div class="lista-cafes">
+            <h3>CULTURA CAFÉ A TU CASA</h3>
+            <div id="listProductos">
+            </div>
+        </div>
+
+        <div id="carrito-container">
+            <div id="carrito">
+                <h3>TU CARRITO</h3>
+            </div>
+            <div id="precioTotal">
+            </div>
+        </div>
+    </section>
+
+<footer>
+</footer>
+
+<script src="./js/functions.js">
+</script>
+
+</body>
+</html>
